@@ -6,12 +6,12 @@ Todas informações são guardadas como DataFrames do pacote [pandas](https://pa
 A biblioteca é particularmente útil para declaração de imposto de renda, pois calcula automaticamente o 
 lucro de cada venda e o novo preço médio com cada compra.
 
-*Dependências: pandas*
+*Dependências: ipython, pandas*
 
 ## Uso
 Para abrir execute no terminal
 ``` bash
-python -i /path/to/pyacoes/launch.py
+ipython -i /path/to/pyacoes/launch.py
 ```
 O comando pode ser posto num *alias* para facilitar.
 
