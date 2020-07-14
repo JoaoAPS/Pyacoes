@@ -6,7 +6,7 @@ Todas informações são guardadas como DataFrames do pacote [pandas](https://pa
 A biblioteca é particularmente útil para declaração de imposto de renda, pois calcula automaticamente o 
 lucro de cada venda e o novo preço médio com cada compra.
 
-*Dependências: numpy, pandas*
+*Dependências: pandas*
 
 ## Uso
 Para abrir execute no terminal

@@ -10,7 +10,7 @@ Acoes = ModuleAcoes.Acoes
 
 #Carrega variáveis
 dataFilePath = str(Path(__file__) / 'dados/hist.csv').replace('launch.py/', '')
-acoes = ModuleAcoes.Acoes(os.path.isfile(dataFilePath))
+acoes = ModuleAcoes.Acoes(readFromFiles = os.path.isfile(dataFilePath))
 date  = ModuleAcoes.date
 
 #Imprime boas vindas
