@@ -269,8 +269,8 @@ class Acoes:
 
                 # Atualiza preço médio com uma média ponderada
                 self.carteira.at[codigo, 'precoMedio'] = (
-                    (existingRow['qnt'] * existingRow['precoMedio']) 
-                    + (ordem['qnt'] * ordem['precoMedio'])
+                    (existingRow['qnt'] * existingRow['precoMedio']
+                    + ordem['qnt'] * ordem['precoMedio'])
                     / (existingRow['qnt'] + ordem['qnt'])
                 )
 
